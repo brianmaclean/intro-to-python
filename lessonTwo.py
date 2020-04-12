@@ -21,3 +21,9 @@ while i <= 10 :
     # your code here
 
     i += 1
+
+for i in range(11):
+    #print(i)
+    even = i % 2
+    if even == 0:
+        print(i)
