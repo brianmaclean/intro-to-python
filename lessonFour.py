@@ -36,7 +36,7 @@ def findInList(item) :
     for i in myList:
         if i == item :
             print("I got it")
-        print("I have to get it")
+    print("I have to get it")
     # your code here
 
 # assuming every element in 'numList' is a number, complete this function so that it
