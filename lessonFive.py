@@ -16,12 +16,17 @@ myList = []
 # Complete a function that adds elements to the list, 'myList'
 # only if the length of the list is less than 5.
 def addToList(element) :
+    for i in range(element) :
+        myList.append(element)
     # your code here
 
 
 # Complete a function that removes the last element from the list
 # 'myList', and returns it unless there is one left, then leave it.
 def removeFromList() :
+    if len(myList) > 1 :
+        myList.pop()
+    return myList.pop()
     # your code here
 
 
@@ -30,20 +35,22 @@ def removeFromList() :
 # If the list doesn't contain the element then return -1.
 def getIndex(element) :
     # your code here
-
+    return myList.index(element)
 
 
 # Complete a function that calls getElement() and prints the value
 # it returns.
 def printIndex(element) :
     # your code here
-
+    value = getIndex(element)
+    print (value)
 
 # Complete a function that removes the element 'element' from the
 # list and returns it. If the element doesn't exist, then return -1.
 def removeElement(element) :
     # your code here
-
+    myList.pop(element)
+    return myList.pop(element)
 
 #-----#
 
